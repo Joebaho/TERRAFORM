@@ -13,6 +13,3 @@ output "instance_private_Ip" {
   value = aws_security_group.web_sg.id
 }
 
-# output "aws_security_group" {
-#   value = aws_security_group.web_sg.id
-# }
